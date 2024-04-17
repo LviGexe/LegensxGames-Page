@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compra de Videojuegos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar1">
+        <div class="logo" id="logoCarrito">
+            <img src="../imagenes/Logo.svg" alt="LegensxGames Logo">
+        </div>
+        <a href="../index.html"><h1 class="head">LgendsxGames</h1></a>
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="C:\Users\.exe\Downloads\LegensxGames Page\html\Tienda.html">Tienda</a></li>
+            <li><a href="C:\Users\.exe\Downloads\LegensxGames Page\html\Contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+    <header class="header" id="Tienda">
+      <a href="C:\Users\.exe\Downloads\LegensxGames Page\html\Carrito.html">
+        <img  src="../imagenes/carrito.svg" alt="" class="compras">
+    </a>
+    
+        <h1 class="TituloC">Lista de Compra de Videojuegos</h1>
+        <br><br><br><br>
+        <div style="display: flex;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png" class="card-img-top img-fluid" alt="God Of War Ragnarok" width="100" height="150">
+                            <div class="card-body">
+                                <h5 class="card-title">God Of War Ragnarok</h5>
+                                <p>110.000 COP</p>
+                                <button type="button" class="btn btn-dark agregar-carrito">Agregar al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b" class="card-img-top img-fluid" alt="League Of Legends">
+                            <div class="card-body">
+                                <h5 class="card-title">League Of Legends</h5>
+                                <p>0.00 COP</p>
+                                <button type="button" class="btn btn-dark agregar-carrito">Agregar al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202312/0117/da083fa5e19458dd750aa8a6ea30ba10bac6f87074693df5.jpg" class="card-img-top img-fluid" alt="The Last Of Us Part II">
+                            <div class="card-body">
+                                <h5 class="card-title">The Last Of Us Part II</h5>
+                                <p>150.000 COP</p>
+                                <button type="button" class="btn btn-dark agregar-carrito">Agregar al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <button type="button" class="btn btn-dark">Dark</button>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">LgendsxGames</h2>
+                <p>Traemos tus mejores juegos</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook-circle' ></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="carrito" id="carrito">
+        <div class="lista-productos" id="lista-productos">
+        </div>
+        <div class="total">
+            <p>Total:</p>
+            <span id="total">0</span>
+        </div>
+        <button id="pagar">Pagar</button>
+    </div>
+
+    <script src="../js/carrito.js" defer></script>
+</body>
+</html>

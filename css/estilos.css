@@ -1,0 +1,401 @@
+/*Apartado inicio*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+.body{
+
+    font-family: 'Single Day', cursive;
+
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    text-align: center;
+    
+}
+
+.contenedor img{
+    width: 100%;
+    height: auto;
+    margin-bottom; 20px;
+}
+
+.menu{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.header{
+    height: 100vh;
+    background-image: linear-gradient(-20deg, rgba(185, 33, 255, 0.466) 0%, rgba(33, 213, 253, 0.479) 100%), url(../imagenes/uno.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f70071;
+}
+
+.contenedor.slogan{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.compras{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: pointer;
+    border-radius:30px;
+    box-shadow: 0 0 6px rgba(255, 2, 129, 0.993);
+}
+
+
+/*Apartado Contacto*/
+
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+}
+
+.navbar1 {
+    background-color: #000;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.navbar1 a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.navbar1 a:hover {
+    background-color: #4CAF50;
+    color: black;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+    background-color: transparent; 
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000000;
+    margin: 0;
+    
+}
+h1 {
+    text-align: center;
+    color: #be05d6;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+.center2 {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+/*Apartado Tienda*/
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.TituloC {
+    text-align: center;
+    color: #ff05e2;
+}
+
+h1 {
+    text-align: center;
+    color: #ff05e2
+}
+
+.juego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: center;
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.juego img:hover {
+    transform: scale(1.2);
+}
+
+img {
+    width: 190px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0;
+}
+
+#carrito {
+    position: fixed;
+    top: 120px;
+    right: -120px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ff08fb;
+    padding: 10px;
+    max-width: 200px;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    text-color:#fff;
+}
+
+#carrito.abierto{
+    right: 0;
+}
+
+.compra {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: pointer;
+    border-radius: 30px;
+    box-shadow: 0 0 6px rgba(255, 2, 129, 0.993);
+}
+
+
+
+/*Carrito de Compras*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.carrito {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-image: url('https://i.blogs.es/086109/mejores-auriculares-gaming-guia-de-compra/1366_2000.jpg');
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 9999;
+}
+
+.lista-productos {
+    margin-bottom: 20px;
+}
+
+.producto {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center; /* Alinear al centro verticalmente */
+        justify-content: center; /* Centrar horizontalmente */
+        text-align: left;
+        padding-left: 0;
+        margin-top: calc(50vh - 150px); /* Ajustar según el tamaño del menú */
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .TituloC {
+        text-align: center;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+
+    .agregar-carrito {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+    
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .center,
+    .center2 {
+        width: 90%;
+    }
+}
+    
+// _inicio.scss
+
+$color-fondo-header: #192a56;
+$color-texto-header: #fff;
+$color-fondo-slogan: #273c75;
+$color-texto-slogan: #fff;
+$color-botones: #44bd32;
+
+
+.header {
+    background-color: $color-fondo-header;
+    color: $color-texto-header;
+    padding: 2rem 0;
+}
+
+
+.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.slogan {
+    background-color: $color-fondo-slogan;
+    color: $color-texto-slogan;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.slogan p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: $color-botones;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($color-botones, 10%);
+    }
+}
