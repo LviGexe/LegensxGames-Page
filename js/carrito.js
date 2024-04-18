@@ -51,7 +51,3 @@ document.addEventListener("DOMContentLoaded", function() {
         mostrarProductos();
     });
 });
-
-document.addEventListener("DOMContentLoaded", function(
-    
-))
